@@ -28,6 +28,14 @@ namespace Mediatek86.vue
         private List<Revue> lesRevues = new List<Revue>();
         private List<Exemplaire> lesExemplaires = new List<Exemplaire>();
 
+        private List<CommandeDocument> lesCommandeDocument = new List<CommandeDocument>();
+        private readonly BindingSource bdgCommandesLivresListe = new BindingSource();
+        private List<Suivi> lesSuivis = new List<Suivi>();
+        private readonly BindingSource bdgCommandesDvdListe = new BindingSource();
+        private List<Abonnement> lesAbonnements = new List<Abonnement>();
+        private readonly BindingSource bdgAbonnementRevuesListe = new BindingSource();
+
+
         #endregion
 
 
